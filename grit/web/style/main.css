@@ -1,0 +1,424 @@
+body {
+	background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    max-width:1000px;
+    margin:0%;
+    padding:0%;
+    overflow-x: hidden;
+
+	}
+
+/*------ TOPBAR ------*/
+
+.TOPBAR{
+    position: fixed;
+    background-color:#e15d22;
+    height:1.5vw;
+    width:100%;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    
+}
+
+.signup, .login{
+    position:absolute;
+    color:white; 
+    font-size: 1.04vw;
+    top:20%;
+    left:80%;
+       
+}
+
+.login{
+    left:87%;
+}
+
+/*------ SEARCHBAR ------*/
+.SEARCH{
+    position: fixed;
+    top:3vw;
+    left:26vw;
+    z-index: 1;
+}
+
+.TOPNAV{
+    position: fixed;
+    top:1.5vw;  
+}
+
+.search {
+    position:fixed;
+    
+    width: 50%;
+    height: 5%;
+    padding:0% 2%;
+    border-radius: 15px;
+    border-color:black;
+    
+       
+}
+
+#bgtopnav{
+    bottom:85%;
+    
+}
+
+#logo{
+    position:fixed;
+    top:1%;
+    left:8%;
+    transform: scale(0.7);
+    
+}
+
+#searchb, #cartb{
+    position:fixed;
+    top:2.4vw;
+    left:71%;
+    z-index: 1;
+   
+    
+}
+
+#cartb{
+    padding: 8px 0px 0px 8px;
+    top:vw;
+    left:76%;
+}
+/*
+.TOPNAV{
+    background-image: url(topnav.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:auto;
+    height:3%;
+    margin:0;
+    padding:0;
+}
+*/
+
+
+/*------- NAVIGATIONBAR & ADS-------*/
+
+
+.ORDER1{
+    position: absolute;
+    top:65%;
+    left:20%;
+    border-radius: 15px;
+    
+}
+
+.ORDER2{
+    position: absolute;
+    top:65%;
+    left:72%;
+    border-radius: 15px;
+    
+}
+
+.nav1, .nav2, .nav3, .nav4, .nav5{
+    position:absolute;
+    font-size:1.2vw;
+    top:15%;
+    left:15%;.
+    z-index:-1;
+
+}
+
+.nav2{
+    left:30%;
+    
+}
+
+.nav3{
+    left:47%;
+    
+}
+
+.nav4{
+    left:65%;
+    
+}
+
+.nav5{
+    left:80%;
+    
+}
+
+#SP, #SP1, #SP2{
+    position: absolute;
+    top:25%;
+    left:15%;
+    border-radius: 15px;
+    z-index: -1;
+}
+#SP1{
+    position: absolute;
+    top:25%;
+    left:40%;
+    border-radius: 15px;
+}
+#SP2{
+    position: absolute;
+    top:25%;
+    left:65%;
+    border-radius: 15px;
+}
+/*------- FEATURED -------*/
+.FEATURED{
+    position:absolute;
+    width:100%;
+    top:75%;
+    left:10%;
+}
+
+p, hr{
+    font-family: Arial;
+    font-size:1.2vw;
+    color:#e15d22;
+    margin:0;
+}
+
+
+#acer, #apple, #asus, #dell, #lenovo, #msi, #oppo, #samsung, #vivo{
+    position: absolute;
+    top:250%;
+    left:5%;
+}
+
+#apple{
+    top:180%;
+    left:20%;
+}
+
+#asus{
+    left:30%;
+}
+
+#dell{
+    top: 180%;
+    left:48%;
+}
+
+#lenovo{
+    top:290%;
+    left: 60%;
+}
+
+#msi {
+    top:650%;
+    left:8%;
+}
+
+#oppo{
+    top:650%;
+    left:24%;
+}
+
+#samsung{
+    top:600%;
+    left:45%;
+}
+
+#vivo{
+    top:600%;
+    left:65%;
+}
+
+/*---------- FOOTER -------*/
+.LOWER{
+    position: absolute;
+    background-color:#070f1c;
+    height:25%;
+    width:99%;
+    margin:5;
+    padding:0;
+    top:125%;
+    
+}
+.LOWER #CUSTOMERCARE{
+    position:absolute;
+    list-style: none;
+    font-family: arial;
+    font-size:0.76vw;
+    color:#474747;
+    
+}
+
+.LOWER #XPRESS{
+    position:absolute;
+    list-style: none;
+    font-family: arial;
+    font-size:0.76vw;
+    color:#474747;
+    left:25%;
+    
+}
+
+.BOLD{
+    font-size:0.9vw;
+    margin:7px 0px;
+}
+
+.text1, .text2{
+    position: absolute;
+    color: #474747;
+    font-family: Arial;
+    font-size:1.04vw;
+    left:50%;
+    top:10%;
+}
+
+.text2{
+    font-size:0.83vw;
+    top:25%;
+    
+}
+
+.form{
+    position: absolute;
+    top:40%;
+    left:50%;
+    width:25%;
+    height:15%;
+    font-size:0.83vw;
+    padding: 0px 10px;
+}
+
+.radiob, .radiom, .radiob1, .radiof{
+    position: absolute;
+    top:43%;
+    left:76%
+}
+
+.radiob1{
+    left:81%;
+}
+
+.radiom{
+    left:78%;
+    color: #474747;
+    font-size: 0.97vw;
+}
+
+.radiof{
+    left:83%;
+    color:#474747;
+    font-size:0.97vw;
+}
+
+button{
+    position: absolute;
+    left:88%;
+    top:41%;
+    background-color:#e15d22;
+    color:white;
+    padding:5px 25px;
+    font-size: 0.83vw;
+    border: none;
+}
+
+#logo1{
+    position: absolute;
+    top:60%;
+    left:50%;
+}
+
+#ios{
+    position: absolute;
+    top:65%;
+    left:58%;
+}
+
+#android{
+    position: absolute;
+    top:65%;
+    left:69%;
+}
+/*---------HYPERLINKS--------*/
+.ORDER1:hover{
+    transform: scale(1.1)
+}
+
+.ORDER2:hover{
+    transform: scale(1.1)
+}
+
+.LOWER a:link{
+    color:#474747;
+    text-decoration: none;
+}
+
+.LOWER a:visited{
+    color:#474747;
+} 
+
+.LOWER a:hover{
+    color:white;
+}
+
+a .nav1:hover{
+    color:#777;
+}
+
+a .nav2:hover{
+    color:#777;
+}
+
+a .nav3:hover{
+    color:#777;
+}
+
+a .nav4:hover{
+    color:#777;
+}
+
+a .nav5:hover{
+    color:#777;
+}
+
+a .nav6:hover{
+    color:#777;
+}
+
+a #acer:hover{
+    transform: scale(1.2);
+}
+
+a #apple:hover{
+    transform: scale(1.2);
+}
+
+a #asus:hover{
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+a #dell:hover{
+    transform: scale(1.2);
+}
+
+a #lenovo:hover{
+    transform: scale(1.2);
+}
+
+a #msi:hover{
+    transform: scale(1.2);
+}
+
+a #oppo:hover{
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+a #samsung:hover{
+    transform: scale(1.2);
+}
+
+a #vivo:hover{
+    transform: scale(1.2);
+}

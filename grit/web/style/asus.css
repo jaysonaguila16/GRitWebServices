@@ -1,0 +1,195 @@
+
+p{
+    font-family:Arial;
+    color:#e15d22;
+}
+
+body {
+	background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    max-width:1000px;
+    margin:0%;
+    padding:0%;
+    overflow-x: hidden;
+
+	}
+
+/*------ TOPBAR ------*/
+
+.TOPBAR{
+    position: fixed;
+    background-color:#e15d22;
+    height:1.5vw;
+    width:100%;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    
+}
+
+.signup, .login{
+    position:absolute;
+    color:white; 
+    font-size: 1.04vw;
+    top:20%;
+    left:80%;
+       
+}
+
+.login{
+    left:87%;
+}
+
+/*------ SEARCHBAR ------*/
+.SEARCH{
+    position: fixed;
+    top:3vw;
+    left:26vw;
+    z-index: 1;
+}
+
+.TOPNAV{
+    position: fixed;
+    top:1.5vw;  
+}
+
+.search {
+    position:fixed;
+    
+    width: 50%;
+    height: 5%;
+    padding:0% 2%;
+    border-radius: 15px;
+    border-color:black;
+    
+       
+}
+
+#bgtopnav{
+    bottom:85%;
+    
+}
+
+#logo{
+    position:fixed;
+    top:1%;
+    left:8%;
+    transform: scale(0.7);
+    
+}
+
+#searchb, #cartb{
+    position:fixed;
+    top:2.4vw;
+    left:71%;
+    z-index: 1;
+   
+    
+}
+
+#cartb{
+    padding: 8px 0px 0px 8px;
+    top:vw;
+    left:76%;
+}
+
+/*------- NAVIGATIONBAR-------*/
+
+.nav1, .nav2, .nav3, .nav4, .nav5{
+    position:absolute;
+    top:20%;
+    left:15%;.
+    z-index:-1;
+
+}
+
+.nav2{
+    left:30%;
+    
+}
+
+.nav3{
+    left:47%;
+    
+}
+
+.nav4{
+    left:65%;
+    
+}
+
+.nav5{
+    left:80%;
+    
+}
+
+
+/*---------CONTAINER--------*/
+.CONTAINER{
+    position: absolute;
+    max-width: 100%;
+    top:30%;
+    z-index:-1;
+    
+}
+
+.field{
+    width:10%;
+}
+.z3, .z4max, .z4selfie{
+    position: absolute;
+    top:30%;
+    left:10%;
+    height:95%;
+    font-family: arial;
+    background-color:#e15d22;
+    border-radius: 25px;
+    padding-top:2%;
+    z-index:-1;
+    margin-right:5%;
+}
+
+.z4max{
+    height:90%;
+    left:50%;
+    height:110%;
+    margin-left:1%;
+}
+
+.z4selfie{
+    top:131%;
+}
+
+ul h3{
+    
+}
+
+/*---------HYPERLINKS--------*/
+
+a .nav1:hover{
+    color:#777;
+}
+
+a .nav2:hover{
+    color:#777;
+}
+
+a .nav3:hover{
+    color:#777;
+}
+
+a .nav4:hover{
+    color:#777;
+}
+
+a .nav5:hover{
+    color:#777;
+}
+
+a .nav6:hover{
+    color:#777;
+}
+
+
